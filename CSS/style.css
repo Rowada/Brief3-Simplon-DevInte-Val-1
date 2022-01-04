@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+nav ul li{
+    display: inline;
+    font-size: 13px;
+    color: #9a9a9a;
+    padding: 10px;
+    font-weight: 600;
+}
+nav ul li:nth-child(1){
+    color: #6958b2;
+}
+nav img{
+    width: 145px;
+}
