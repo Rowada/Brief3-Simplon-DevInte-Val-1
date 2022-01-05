@@ -1,23 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-body{
-    font-family: 'Montserrat', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+* {
+  padding: 0;
 }
-nav{
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
+body {
+  font-family: "Montserrat", sans-serif;
 }
-nav ul li{
-    display: inline;
-    font-size: 13px;
-    color: #9a9a9a;
-    padding: 10px;
-    font-weight: 600;
+h1 {
+  font-family: "Abril Fatface", cursive;
+  color: #d05270;
 }
-nav ul li:nth-child(1){
-    color: #6958b2;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-nav img{
-    width: 145px;
+nav ul li {
+  display: inline;
+  font-size: 13px;
+  padding: 10px;
+  font-weight: bold;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #9a9a9a;
+  transition: 0.3s;
+}
+nav ul li a:hover {
+  color: #6958b2;
+}
+nav img {
+  width: 145px;
+}
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+  width: 1100px;
+  margin: auto;
+  padding-top: 30px;
+}
+.home .contenu {
+  flex: 1 1 31rem;
+}
+.home .contenu h1 {
+  font-size: 2.5em;
+  font-weight: 300;
+}
+.home .contenu h2 {
+  font-size: 2.5em;
+}
+.home .image {
+  flex: 1 1 21rem;
+}
+.home .image img {
+  width: 400px;
+}
+.home .contenu .bouton {
+  display: flex;
+  margin-top: 15px;
+  padding: 0;
+}
+.home .contenu .bouton ul {
+  display: flex;
+  list-style: none;
+}
+.home .contenu .bouton ul li {
+  padding: 15px 30px;
+  border-radius: 3px;
+}
+
+.home .contenu .bouton ul li a {
+  text-decoration: none;
+  font-size: 10px;
+  color: white;
+}
+.home .contenu .bouton ul li:nth-child(1) {
+  background-color: #47acdf;
+}
+.home .contenu .bouton ul li:nth-child(2) {
+  background-color: #1275b1;
+  margin: 0px 15px 0px 15px;
+}
+.home .contenu .bouton ul li:nth-child(3) {
+  background-color: #000;
+}
+.home .contenu .bouton ul li i {
+  padding-right: 20px;
+  font-size: 15px;
 }
