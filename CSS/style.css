@@ -89,3 +89,25 @@ nav img {
   padding-right: 20px;
   font-size: 15px;
 }
+
+.grille {
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  justify-content: center;
+  gap: 1em;
+  padding-top: 100px;
+}
+.grille .box h2 {
+  font-size: 0.8em;
+}
+.grille .box h3 {
+  font-size: 1.3em;
+  color: #d05270;
+}
+.grille .box a {
+  font-size: 15px;
+  color: #d05270;
+}
+.grille .box img {
+  width: 500px;
+}
