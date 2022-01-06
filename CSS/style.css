@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 * {
   padding: 0;
@@ -32,6 +32,7 @@ nav ul li a:hover {
 nav img {
   width: 145px;
 }
+
 .home {
   display: flex;
   flex-wrap: wrap;
@@ -111,7 +112,91 @@ nav img {
 .grille .box img {
   width: 500px;
 }
+
 .article {
-  margin:0 auto;
-  
+  max-width: 950px;
+  margin: auto;
+  padding: 50px 0 50px 0;
+}
+.article img {
+  width: 950px;
+}
+.article h1 {
+  font-size: 2.3em;
+  font-weight: 300;
+  padding: 15px 0 15px 0;
+}
+.article h2 {
+  font-size: 1.8em;
+  font-weight: 700;
+  padding: 15px 0 15px 0;
+  color: #6958b2;
+}
+.article h3 {
+  font-size: 1.2em;
+  font-weight: 700;
+  padding: 15px 0 15px 0;
+  color: #6958b2;
+}
+.article p {
+  font-weight: 600;
+  font-size: 1.1em;
+  text-align: justify;
+  padding-bottom: 15px;
+  line-height: 23px;
+}
+.end {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  max-width: 950px;
+  margin: auto;
+  padding: 50px 0 150px 0;
+}
+.end .end_content {
+  flex: 1 1 500px;
+}
+.end .end_content h2 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #d05270;
+}
+.end .image {
+  flex: 1 1 300px;
+}
+.end .image img {
+  width: 300px;
+}
+.end .end_content .bouton {
+  display: flex;
+  margin-top: 20px;
+  padding: 0;
+}
+.end .end_content .bouton ul {
+  display: flex;
+  list-style: none;
+}
+.end .end_content .bouton ul li {
+  padding: 15px 30px;
+  border-radius: 3px;
+}
+
+.end .end_content .bouton ul li a {
+  text-decoration: none;
+  font-size: 10px;
+  color: white;
+}
+.end .end_content .bouton ul li:nth-child(1) {
+  background-color: #47acdf;
+}
+.end .end_content .bouton ul li:nth-child(2) {
+  background-color: #1275b1;
+  margin: 0px 15px 0px 15px;
+}
+.end .end_content .bouton ul li:nth-child(3) {
+  background-color: #000;
+}
+.end .end_content .bouton ul li i {
+  padding-right: 20px;
+  font-size: 15px;
 }
