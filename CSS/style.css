@@ -10,6 +10,8 @@ h1 {
   font-family: "Abril Fatface", cursive;
   color: #d05270;
 }
+
+/* Barre de navigation */
 nav {
   display: flex;
   align-items: center;
@@ -32,7 +34,9 @@ nav ul li a:hover {
 nav img {
   width: 145px;
 }
+/*Barre de navigation*/
 
+/*Première section*/
 .home {
   display: flex;
   flex-wrap: wrap;
@@ -70,7 +74,6 @@ nav img {
   padding: 15px 30px;
   border-radius: 3px;
 }
-
 .home .contenu .bouton ul li a {
   text-decoration: none;
   font-size: 10px;
@@ -90,7 +93,9 @@ nav img {
   padding-right: 20px;
   font-size: 15px;
 }
+/*Première section*/
 
+/*Deuxième section (grillle)*/
 .grille {
   display: grid;
   grid-template-columns: repeat(2, 500px);
@@ -107,12 +112,25 @@ nav img {
 }
 .grille .box a {
   font-size: 15px;
+  text-decoration: none;
+  position: relative;
   color: #d05270;
+}
+.grille .box a:after {
+  content: "";
+  width: 75%;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  border-width: 0 0 2px;
+  border-style: solid;
 }
 .grille .box img {
   width: 500px;
 }
+/*Deuxième section (grillle)*/
 
+/*Première section (Page article)*/
 .article {
   max-width: 950px;
   margin: auto;
@@ -145,6 +163,9 @@ nav img {
   padding-bottom: 15px;
   line-height: 23px;
 }
+/*Première section (Page article)*/
+
+/*Bas de page (Page article)*/
 .end {
   display: flex;
   flex-wrap: wrap;
@@ -200,3 +221,4 @@ nav img {
   padding-right: 20px;
   font-size: 15px;
 }
+/*Bas de page (Page article)*/
