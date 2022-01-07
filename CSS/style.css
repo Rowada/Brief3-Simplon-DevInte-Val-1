@@ -225,3 +225,25 @@ nav img {
   font-size: 15px;
 }
 /*Bas de page (Page article)*/
+
+/* page A propos */
+
+.propos {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px 0 50px 0;
+}
+.propos img {
+  width: 1100px;
+}
+.propos h1 {
+  font-size: 2.3em;
+  font-weight: 300;
+  padding: 15px 0 15px 0;
+}
+.propos p {
+  font-size: 1.1em;
+  text-align: justify;
+  padding-bottom: 15px;
+  line-height: 23px;
+}
